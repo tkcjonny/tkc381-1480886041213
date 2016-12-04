@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: tkc381
+  host: tkc381
+  disk_quota: 1024M
+  services:
+  - tkc381-cloudantNoSQLDB
+  - availability-monitoring-auto
